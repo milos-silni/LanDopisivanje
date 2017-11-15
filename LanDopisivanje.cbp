@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LanDopisivanje" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\LanDopisivanje" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib\mswud" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib\mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-lwxmsw28ud_richtext" />
+					<Add option="-lwxmsw28ud_core" />
+					<Add option="-lwxregexud" />
+					<Add option="-lwxbase28ud_net" />
+					<Add option="-lwxbase28ud" />
+					<Add option="-lwxbase28ud_xml" />
+					<Add option="-lwxmsw28ud_adv" />
+					<Add option="-lwxmsw28ud_aui" />
+					<Add option="-lwxmsw28ud_html" />
+					<Add option="-lwxmsw28ud_media" />
+					<Add option="-lwxmsw28ud_xrc" />
+					<Add option="-lwxexpatd" />
+					<Add option="-lwxtiffd" />
+					<Add option="-lwxjpegd" />
+					<Add option="-lwxzlibd" />
+					<Add library="libwxmsw28ud_core.a" />
+					<Add library="libwxbase28ud.a" />
+					<Add library="libwxpngd.a" />
+					<Add library="libwxzlibd.a" />
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\LanDopisivanje" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib\mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib\mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lwxmsw28u_richtext" />
+					<Add option="-lwxmsw28u_core" />
+					<Add option="-lwxregexu" />
+					<Add option="-lwxbase28u_net" />
+					<Add option="-lwxbase28u" />
+					<Add option="-lwxbase28u_xml" />
+					<Add option="-lwxmsw28u_adv" />
+					<Add option="-lwxmsw28u_aui" />
+					<Add option="-lwxmsw28u_html" />
+					<Add option="-lwxmsw28u_media" />
+					<Add option="-lwxmsw28u_xrc" />
+					<Add option="-lwxexpat" />
+					<Add option="-lwxtiff" />
+					<Add option="-lwxjpeg" />
+					<Add option="-lwxzlib" />
+					<Add library="libwxmsw28u_core.a" />
+					<Add library="libwxbase28u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxzlib.a" />
+					<Add directory="C:\wxWidgets-2.8.8\lib\gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option='[[if (PLATFORM == PLATFORM_MSW &amp;&amp; (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.0.0&quot;))) print(_T(&quot;-Wno-attributes&quot;));]]' />
+			<Add option="-finput-charset=windows-1250" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="C:\wxWidgets-2.8.8\include" />
+			<Add directory="C:\wxWidgets-2.8.8\contrib\include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:\wxWidgets-2.8.8\include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+		</Linker>
+		<Unit filename="LanDopisivanjeApp.cpp" />
+		<Unit filename="LanDopisivanjeApp.h" />
+		<Unit filename="LanDopisivanjeMain.cpp" />
+		<Unit filename="LanDopisivanjeMain.h" />
+		<Unit filename="MojCommandEvent.h" />
+		<Unit filename="NitSlusaj.h" />
+		<Unit filename="Podesavanja.cpp" />
+		<Unit filename="Podesavanja.h" />
+		<Unit filename="Poruka.cpp" />
+		<Unit filename="Poruka.h" />
+		<Unit filename="PromenaNadimka.cpp" />
+		<Unit filename="PromenaNadimka.h" />
+		<Unit filename="S_Poruka.h" />
+		<Unit filename="TaskBarIkonica.cpp" />
+		<Unit filename="TaskBarikonica.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith\LanDopisivanjeframe.wxs" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="LanDopisivanjeApp.cpp" main="LanDopisivanjeFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/LanDopisivanjeframe.wxs" src="LanDopisivanjeMain.cpp" hdr="LanDopisivanjeMain.h" name="LanDopisivanjeFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/Poruka.wxs" src="Poruka.cpp" hdr="Poruka.h" name="Poruka" language="CPP" />
+					<wxDialog wxs="wxsmith/PromenaNadimka.wxs" src="PromenaNadimka.cpp" hdr="PromenaNadimka.h" name="PromenaNadimka" language="CPP" />
+					<wxDialog wxs="wxsmith/Podesavanja.wxs" src="Podesavanja.cpp" hdr="Podesavanja.h" name="Podesavanja" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

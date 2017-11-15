@@ -1,0 +1,9 @@
+aaaa ICON "user.ico"
+users ICON "users.ico"
+slika BITMAP "user.bmp"
+smesak BITMAP "smesak.bmp"
+smesak_namignuo BITMAP "smesak_namignuo.bmp"
+veliki_smesak BITMAP "veliki_smesak.bmp"
+tuzan BITMAP "tuzan.bmp"
+
+#include "wx/msw/wx.rc"

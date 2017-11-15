@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="PromenaNadimka">
+		<title>Promena nadimka</title>
+		<size>200,98</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Ukucaj novi nadimak i potvrdi:</label>
+			<pos>24,8</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="novi_nadimak" member="yes">
+			<value>Text</value>
+			<pos>16,32</pos>
+			<size>160,21</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Potvrdi</label>
+			<pos>16,64</pos>
+			<focused>1</focused>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Poništi</label>
+			<pos>104,64</pos>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>
